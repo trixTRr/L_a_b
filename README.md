@@ -115,6 +115,7 @@ if use_optimization:
 df = df.persist(StorageLevel.MEMORY_AND_DISK)
 df.count()
 ...
+
 3. Включение адаптивных запросов:
 
 ...
